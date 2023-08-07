@@ -48,7 +48,7 @@ h1:hover{
 button{
     transition: all 300ms;
     animation: float 2000ms infinite alternate-reverse;
-}
+}/* Can be use for dark mode*/
 button:hover{
     background-color: black;
     color: white;
@@ -64,6 +64,7 @@ button:hover{
 .nav__link{
     color: black;
 }
+/*Block Element Modifier*/
 .nav__link--active{
     color: purple;
     font-weight: bold;

@@ -26,7 +26,7 @@
     background-color: blue;
     width: 100px;
     height: 100px;
-    position: absolute;
+    position: absolute; /*doesnt take 100 % width */
     bottom: 0;
     right: 0;
 }
@@ -35,6 +35,6 @@
     width: 100px;
     height: 100px;
     position: absolute;/*fixed or sticky*/
-    top: 100%;/*bottom, left, right*/
+    top: 0;/*bottom, left, right*/
     
 }
